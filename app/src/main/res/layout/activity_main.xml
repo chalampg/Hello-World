@@ -30,7 +30,6 @@
         android:gravity="center_horizontal"
         android:text="EmptyText"
         android:id="@+id/display_text_view"
-
         />
 
     <Button
