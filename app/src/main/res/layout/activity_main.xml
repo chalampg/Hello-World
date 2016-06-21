@@ -9,8 +9,36 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.georgios.helloworld.MainActivity">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/zuzunakia2"/>
+
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/display_text_view_1"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+         <!--/>-->
+
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_alignParentRight="true"
+        android:gravity="center_horizontal"
+        android:text="EmptyText"
+        android:id="@+id/display_text_view"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pata Edw"
+        android:id="@+id/button"
+        android:layout_marginTop="78dp"
+        android:onClick="showPicture"
+         />
+
 </RelativeLayout>
